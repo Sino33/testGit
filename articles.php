@@ -18,6 +18,8 @@ session_start();
                 <ul><a href="supprimer_article.php">Supprimer un article</a></ul>
             </li>
         </nav>
-       
+       <div>
+            <?php echo 'nous somme le' . date('Y-m-d'); ?>
+        </div>
     </body>
 </html>
